@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   nginx:
-    image: nginx:1-alpine
+    #image: nginx:1-alpine
+    image: httpd
     ports:
       - 80:80
